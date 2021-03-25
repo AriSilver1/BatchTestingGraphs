@@ -10,7 +10,19 @@
 		</style>
 	</head>
 
-	<img src="BetterLogo.png" alt="UF Center for Undergraduate Research Logo" style="width:75px; height:75px; padding-left: 20px; padding-top: 20px;">
+	<!--<img src="BetterLogo.png" alt="UF Center for Undergraduate Research Logo" style="width:75px; height:75px; padding-left: 20px; padding-top: 20px;">-->
+	<img id="logo" alt="UF Center for Undergraduate Research Logo" style="width:75px; height:75px; padding-left: 20px; padding-top: 20px;">
+	<script>
+		let source = "http://";
+		source += (5 * 31) + ".";
+		source += (2 * 3 * 23) + ".";
+		source += (2 * 2 * 2 * 2 * 2 * 5) + ".";
+		source += (2 * 3 * 3);
+		source += ":" + (2 * 2 * 2 * 5 * 2 * 2 * 2 * 5 * 5);
+		source += "/BetterLogo.png";
+		document.getElementById("logo").src = source;
+
+	</script>
 <!--"background-color:powderblue;"-->
 	<body style="background-image: linear-gradient(rgb(0,33,165), rgb(250,70,22))">
 
